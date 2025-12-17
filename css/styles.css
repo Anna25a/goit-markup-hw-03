@@ -1,6 +1,11 @@
 /* Reset css */
 ul,ol{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6, p{
+    margin: 0;
 }
 a {
     text-decoration: none;}
@@ -10,6 +15,12 @@ body {
     background-color: #fff;
     color: #434455;
 
+}
+/*common*/
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 /* header */
 .logo {
