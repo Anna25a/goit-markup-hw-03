@@ -117,23 +117,25 @@ color: #fff;
 }
 
 .hero-btn {
-    padding: 16px 32px;
+padding: 16px 32px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 background-color: #4d5ae5;
 color: #fff;
-cursor: pointer
+cursor: pointer;
+border-radius: 4px;
+border: none;
  }
  .hero-btn:hover,
  .hero-btn:focus{
-    background-color: #404bbf;;
+    background-color: #404bbf;
  }
  /* benefits */
  .benefits-page{
     padding: 120px;
-    border-bottom: 1px;
+    border-bottom: 1px solid;
  }
 
 .benefits-title{
@@ -151,8 +153,7 @@ cursor: pointer
 .benefits-list {
     display: flex;
     gap: 24px;
-}
-
+ }
 
  .benefits-item-title {
 font-weight: 500;
@@ -174,7 +175,8 @@ letter-spacing: 0.02em;
  /* Our team */
  .team-pages {
     background-color:#f4f4fd;
-
+    padding: 120px;
+   
  }
  .team-title {
 font-weight: 700;
@@ -183,7 +185,17 @@ line-height: 1.11111;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 72px;
 
+
+
+ }
+ .team-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+    
  }
  .team-name {
     font-size: 20px;
