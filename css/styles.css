@@ -134,11 +134,11 @@ border: none;
  }
  /* benefits */
  .benefits-page{
-    padding: 120px;
+    padding: 120px 0px;
     border-bottom: 1px solid;
  }
 
-.benefits-title{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -197,12 +197,16 @@ margin-bottom: 72px;
     
     
  }
+ .team-info {
+    padding: 32px 16px;
+ }
  .team-name {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
  }
 .team-position{
     font-weight: 400;
