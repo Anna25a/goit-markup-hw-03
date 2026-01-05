@@ -137,7 +137,6 @@ border: none;
  /* benefits */
  .benefits-page{
     padding: 120px 0px;
-    border-bottom: 1px solid;
  }
 
 .visually-hidden {
@@ -155,6 +154,9 @@ border: none;
 .benefits-list {
     display: flex;
     gap: 24px;
+ }
+ .benefits-list-item {
+    max-width: 264px;
  }
 
  .benefits-item-title {
@@ -246,6 +248,8 @@ margin-bottom: 72px;
 }
 .portfolio-info {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .portfolio-subtitle {
     font-weight: 500;
