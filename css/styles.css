@@ -241,7 +241,8 @@ margin-bottom: 72px;
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 .portfolio-info {
     padding: 32px 16px;
@@ -275,6 +276,5 @@ margin-bottom: 72px;
 }
 .footer-logo .footer-logo-part {
     color: #f4f4fd;
-    margin-bottom: 18px;
 }
 
